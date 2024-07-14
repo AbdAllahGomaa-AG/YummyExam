@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy Exam</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo.png" />
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+    <!-- font awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+  </head>
+
+  <body class="ag-main-color">
+    <main>
+      <!-- =========================================================================== -->
+      <!-- ===============================Side Nav==================================== -->
+      <!-- =========================================================================== -->
+      <!-- Side Nav -->
+      <div
+        class="loadingScreen justify-content-center align-items-center position-fixed top-0 start-0 end-0 bottom-0 bg-black"
+      >
+        <div class="lds-ripple fs-6">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+      <section class="d-flex min-vh-100 position-fixed Nav-menu">
+        <div
+          class="nav-tab ag-text-color d-flex flex-column justify-content-between min-vh-100 p-3 ag-main-color"
+        >
+          <div class="links overflow-hidden">
+            <ul class="list-unstyled">
+              <li class="p-2 position-relative" id="searchClick">Search</li>
+              <li class="p-2 position-relative" id="Categories">Categories</li>
+              <li class="p-2 position-relative" id="Area">Area</li>
+              <li class="p-2 position-relative" id="Ingredients">
+                Ingredients
+              </li>
+              <li class="p-2 position-relative" id="ContactUs">Contact Us</li>
+            </ul>
+          </div>
+          <div class="nav-footer is-valid">
+            <div class="icons">
+              <i class="fa-brands fa-facebook px-1"></i>
+              <i class="fa-brands fa-twitter px-1"></i
+              ><i class="fa-solid fa-globe px-1"></i>
+            </div>
+            <p>
+              Copyright Â© 2019 All Rights <br />
+              Reserved.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div
+          class="nav-header ag-text-color d-flex flex-column justify-content-between p-2 text-dark bg-white text-center"
+        >
+          <img src="Images/logo.png" alt="logo" class="ag-w-50" />
+          <i class="fa-solid fa-align-justify fs-3 open-icon"></i>
+          <div class="icon-header">
+            <i class="fa-solid fa-globe d-block fs-4"></i>
+            <i class="fa-solid fa-share-nodes fs-4"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================================== -->
+      <!-- =================================search==================================== -->
+      <!-- =========================================================================== -->
+      <section class="search" id="searchInput"></section>
+
+      <!-- =========================================================================== -->
+      <!-- ===============================RecipeItem================================== -->
+      <!-- =========================================================================== -->
+      <section class="RecipeItem">
+        <div class="container">
+          <div class="row" id="DisplayMeal"></div>
+        </div>
+      </section>
+
+      <!-- =========================================================================== -->
+      <!-- ===============================contact US================================== -->
+      <!-- =========================================================================== -->
+
+      <!-- =========================================================================== -->
+      <!-- ===============================Details================================== -->
+      <!-- =========================================================================== -->
+      <!-- details -->
+      <!-- <section class="details">
+        <div class="container">
+          <div class="row">
+
+          </div>
+        </div>
+      </section> -->
+      <div class="bg-transparent text-center d-flex justify-content-center align-items-center min-vh-100 d-none" id="loaderSpiner">
+        <span class="loader"></span>
+      </div>
+    </main>
+
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+    <!--bootstrap  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Main js -->
+    <script src="js/index.js"></script>
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+    <!-- =========================================================================== -->
+  </body>
+</html>
